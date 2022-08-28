@@ -1,10 +1,10 @@
-.Login {
+.my-account {
   width: 100%;
   height: 100vh;
   display: grid;
   place-items: center;
 }
-.form-container {
+.my-account-container {
   display: grid;
   grid-template-rows: auto 1fr auto;
   width: 300px;
@@ -15,44 +15,29 @@
   justify-self: center;
   display: none;
 }
+.tittle {
+  font-size: var(--lg);
+  margin-bottom: 32px;
+  text-align: start;
+}
 .form {
   display: flex;
   flex-direction: column;
+  width: auto;
 }
-.form a {
-  color: var(--hospital-green);
-  font-size: var(--sm);
-  text-align: center;
-  text-decoration: none;
-  margin-bottom: 52px;
+.form > div {
+  display: flex;
+  flex-direction: column;
 }
 .label {
   font-size: var(--sm);
   font-weight: bold;
   margin-bottom: 4px;
 }
-.input {
-  background-color: var(--text-input-field);
-  border: none;
-  border-radius: 8px;
-  height: 32px;
+.value {
+  color: var(--very-light-pink);
   font-size: var(--mb);
-  padding: 6px;
-  margin-bottom: 12px;
-}
-.input-email {
-  margin-bottom: 22px;
-}
-.primary-button {
-  background-color: var(--hospital-green);
-  border-radius: 8px;
-  border: none;
-  color: var(--white);
-  width: 100%;
-  cursor: pointer;
-  font-size: var(--mb);
-  font-weight: bold;
-  height: 48px;
+  margin: 8px 0 32px 0;
 }
 .secondary-button {
   background-color: var(--white);
@@ -65,17 +50,15 @@
   font-weight: bold;
   height: 48px;
 }
-.login-button {
+.confirm-button {
   margin-top: 14px;
   margin-bottom: 30px;
 }
 @media (max-width: 700px) {
-  .logo {
-    display: block;
+  .my-account {
+    height: 100vh;
   }
-  .secondary-button {
-    position: absolute;
-    bottom: 8px;
-    width: inherit;
+  .form{
+    justify-content: space-between;
   }
 }

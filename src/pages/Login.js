@@ -3,16 +3,20 @@ import '../styles/Login.scss'
 
 export const Login = () => {
   return (
-    <div className="login">
+    <div className="Login">
       <div className="form-container">
         <img src="./logos/logo_yard_sale.svg" alt="logo" className="logo" />
-        <h1 className="tittle">Create a new password</h1>
-        <p className="subtittle">Enter a new password for you account</p>
 
         <form action="" className="form">
-          <label htmlFor="password" className="label">
-            Password
-          </label>
+          <label htmlFor="email" className="label">Email address</label>
+          <input
+            type="text"
+            id="email"
+            placeholder="email@example.com"
+            className="input input-email"
+          />
+
+          <label htmlFor="password" className="label">Password</label>
           <input
             type="password"
             id="password"
@@ -20,22 +24,14 @@ export const Login = () => {
             className="input input-password"
           />
 
-          <label htmlFor="new-password" className="label">
-            Password
-          </label>
-          <input
-            type="password"
-            id="new-password"
-            placeholder="*********"
-            className="input input-password"
-          />
-
           <input
             type="submit"
-            value="Confirm"
-            className="primary-button confirm-button"
+            value="Log in"
+            className="primary-button login-button"
           />
+          <a href="/">Forgot my password</a> 
         </form>
+        <button className="secondary-button signup-button">Sing up</button>
       </div>
     </div>
   );

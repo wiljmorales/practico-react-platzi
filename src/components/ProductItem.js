@@ -3,13 +3,13 @@ import '../styles/ProductItem.scss'
 
 export const ProductItem = () => {
   return (
-    <div className="product-item">
+    <div className="ProductItem">
       <img
         src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         alt=""
-        className="product-img"
+        className="product-item-img"
       />
-      <div className="product-info">
+      <div className="product-item-info">
         <div>
           <p>$120,00</p>
           <p>Bike</p>

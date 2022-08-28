@@ -7,6 +7,9 @@ export const ProductList = () => {
     <section className="main-container">
       <div className="cards-container">
         <ProductItem />
+        <ProductItem />
+        <ProductItem />
+        <ProductItem />
       </div>
     </section>
   );
