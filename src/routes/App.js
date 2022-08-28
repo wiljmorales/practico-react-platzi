@@ -10,6 +10,8 @@ import { CreateAccount } from "../pages/CreateAccount";
 import { ProductList } from "../pages/ProductList";
 import { Orders } from "../pages/Orders";
 import { MyAccount } from "../pages/MyAccount";
+import { Checkout } from "../pages/Checkout";
+import { SendEmail } from "../pages/SendEmail";
 
 export const App = () => {
   return (
@@ -19,10 +21,12 @@ export const App = () => {
           <Route path="/" element={<ProductList />} />
           <Route path="new-password" element={<NewPassword />} />
           <Route path="my-account" element={<MyAccount />} />
+          <Route path="checkout" element={<Checkout />} />
           <Route path="orders" element={<Orders />} />
           <Route path="create" element={<CreateAccount />} />
           <Route path="login" element={<Login />} />
           <Route path="recovery" element={<RecoveryPassword />} />
+          <Route path="send-email" element={<SendEmail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>

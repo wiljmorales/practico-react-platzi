@@ -4,10 +4,10 @@ import '../styles/Orders.scss'
 
 export const Orders = () => {
   return (
-    <div class="my-order">
-      <div class="my-order-container">
-        <h1 class="my-order-tittle">My orders</h1>
-        <div class="my-order-content">
+    <div className="my-order">
+      <div className="my-order-container">
+        <h1 className="my-order-tittle">My orders</h1>
+        <div className="my-order-content">
           <Order />
           <Order />
           <Order />
