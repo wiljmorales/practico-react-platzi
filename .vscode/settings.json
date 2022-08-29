@@ -1,0 +1,9 @@
+{
+  "jumpToAliasFile.alias": {
+    "@components": "/home/wiljmorales/Documents/platzi/practico-react/src/components",
+    "@containers": "/home/wiljmorales/Documents/platzi/practico-react/src/containers",
+    "@pages": "/home/wiljmorales/Documents/platzi/practico-react/src/pages",
+    "@styles": "/home/wiljmorales/Documents/platzi/practico-react/src/styles",
+    "@assets": "/home/wiljmorales/Documents/platzi/practico-react/src/assets"
+  }
+}
