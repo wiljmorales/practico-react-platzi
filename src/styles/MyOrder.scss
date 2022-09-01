@@ -4,6 +4,12 @@
   box-sizing: border-box;
   position: absolute;
   right: 0;
+  top: 60px;
+  background-color: var(--white);
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: 1px solid var(--very-light-pink);
+  bottom: auto;
 }
 .MyOrder .title-container {
   display: flex;
