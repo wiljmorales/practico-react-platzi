@@ -1,1 +1,1 @@
-# practico-react-platzi
+# Curso Practico de React Platzi
